@@ -83,8 +83,8 @@ header .burger_icon .burger {
   padding-top: 13px;
 }
 .game_title__section .game_title .game_title_img {
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   border: 1px solid gray;
   border-radius: 100px;
 }
@@ -93,8 +93,9 @@ header .burger_icon .burger {
   align-items: center;
 }
 .game_title__section .game_title .game_title_name span {
-  margin-left: 10px;
-  font-size: 48px;
+  margin-left: 22px;
+  font-size: 32px;
+  word-spacing: 2px;
 }
 
 .tabs {
@@ -105,12 +106,12 @@ header .burger_icon .burger {
   display: flex;
 }
 .tabs__items a {
-  font-size: 26px;
+  font-size: 21px;
 }
 .tabs__items .active {
   color: #f0f0f4;
-  border-bottom: 2px solid blue;
-  padding: 0 0 3px 0;
+  border-bottom: 5px solid #4b60b5;
+  padding: 0 30px 3px 20px;
 }
 .tabs__items .disabled {
   color: gray;
@@ -221,27 +222,31 @@ footer .official_info {
   background-color: #eee;
 }
 .description-block .content .container {
-  max-width: 720px;
+  max-width: 1190px;
   margin: 0 auto;
 }
 .description-block .description__header {
   text-transform: uppercase;
-  font-size: 30px;
-  margin: 15px 0;
+  font-size: 22px;
+  margin: 21px 0;
 }
 .description-block .description__text {
-  font-size: 24px;
-  word-break: break-all;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.description-block .screenshots {
+  margin: 47px 0 0 0;
 }
 .description-block .screenshots__header {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 22px;
   margin: 15px 0;
 }
 .description-block .screenshots__header_content {
   display: flex;
   align-content: flex-end;
   flex-direction: row;
+  padding: 11px 0;
 }
 .description-block .screenshots__header_content .content_screenshots {
   margin-left: 30px;
@@ -250,19 +255,19 @@ footer .official_info {
   margin-left: 0;
 }
 .description-block .screenshots__header_content img {
-  width: 100%;
-  height: 75%;
+  width: 96%;
+  height: 104%;
 }
 .description-block .trailers__header {
   text-transform: uppercase;
-  font-size: 30px;
-  margin: 15px 0;
+  font-size: 22px;
+  margin: 9px 0 36px 0;
 }
 .description-block .trailers__header_content .content_trailers {
   margin: 30px 0;
 }
 .description-block .trailers__header_content .content_trailers .content_trailers__link img {
-  width: 50%;
+  width: 47%;
 }
 
 .wrapper-news {
@@ -357,6 +362,10 @@ footer .official_info {
     display: none;
   }
 
+  .container {
+    padding: 0 10px;
+  }
+
   .game_title__section {
     padding: 106px 0 0 0;
   }
@@ -383,7 +392,7 @@ footer .official_info {
   }
 
   .tabs__item {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .content .game {
