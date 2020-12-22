@@ -183,12 +183,10 @@ footer
     margin: 0 auto
     .sidebar
         &__left
-            background-color: black
         &__right
-            background-color: black
     .content
         .game
-            width: 100vw
+            width: 100vh
             background-color: #eee
         .container
             max-width: 720px
@@ -258,7 +256,6 @@ footer
                 height: 210px
                 border-radius: 10px 0 0 10px
                 background-color: black
-
 .player
     position: relative
     overflow-x: scroll
@@ -278,7 +275,6 @@ footer
             height: 60px
             &:hover
                 transform: scale(1.1)
-
 .ads
     flex-shrink: 0
     margin: 0 100px
@@ -293,7 +289,6 @@ footer
         width: 100%
         margin: 100px 0
         height: 120px
-
 @media screen and ( max-width: 768px )
     header
         .logoimg
@@ -317,10 +312,16 @@ footer
                     border-radius: 10px 10px 0 0px
 
 @media screen and ( max-width: 425px )
+    .content
+    .game
+        width: 100vw
     .container
         max-width: 580px
     .tabs__item
          margin-left: 50px
+    .content
+        .game
+            width: 100vw
     .description__text
         font-size: 18px
     footer 

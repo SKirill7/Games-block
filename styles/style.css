@@ -216,14 +216,8 @@ footer .official_info {
   justify-content: center;
   margin: 0 auto;
 }
-.description-block .sidebar__left {
-  background-color: black;
-}
-.description-block .sidebar__right {
-  background-color: black;
-}
 .description-block .content .game {
-  width: 100vw;
+  width: 100vh;
   background-color: #eee;
 }
 .description-block .content .container {
@@ -380,12 +374,20 @@ footer .official_info {
   }
 }
 @media screen and (max-width: 425px) {
+  .game {
+    width: 100vw;
+  }
+
   .container {
     max-width: 580px;
   }
 
   .tabs__item {
     margin-left: 50px;
+  }
+
+  .content .game {
+    width: 100vw;
   }
 
   .description__text {
